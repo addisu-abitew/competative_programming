@@ -3,7 +3,6 @@ class Solution:
         self.calculated = {}
         
     def PredictTheWinner(self, nums: List[int]) -> bool:
-        print(self.maxValue(nums, 0, len(nums)-1))
         return self.maxValue(nums, 0, len(nums)-1) >= 0
     
     def maxValue(self, nums, l, r):
