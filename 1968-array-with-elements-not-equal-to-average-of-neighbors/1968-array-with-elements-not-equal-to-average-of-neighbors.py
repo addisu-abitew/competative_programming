@@ -4,5 +4,4 @@ class Solution:
             while i > 0 and (nums[i-1]+nums[i+1])/2 == nums[i]:
                 nums[i], nums[i+ 1] = nums[i+1], nums[i]
                 i -= 1
-                print('Do sth here.')
         return nums
