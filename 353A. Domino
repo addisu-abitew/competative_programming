@@ -1,0 +1,30 @@
+def dominoSwaps(n, arr):
+    unbalanced = {'firstOdd': 0, 'secondOdd': 0, 'oddPair': 0}
+    for i in range(n):
+        if int(arr[i][0]) % 2 == 1 and int(arr[i][1]) % 2 == 1:
+            if unbalanced['oddPair'] == 1:
+                unbalanced['oddPair'] -= 1
+            else:
+                unbalanced['oddPair'] += 1
+        elif int(arr[i][0]) % 2 == 1:
+            unbalanced['firstOdd'] += 1
+        elif int(arr[i][1]) % 2 == 1:
+            unbalanced['secondOdd'] += 1
+    swaps = 0
+    if (unbalanced['firstOdd'] + unbalanced['secondOdd'])%2:
+        return -1
+    elif unbalanced['oddPair']:
+        if unbalanced['firstOdd'] > 1:
+            swaps += 1
+        elif unbalanced['secondOdd'] > 1:
+            swaps += 1
+        else: return -1
+    swaps += (unbalanced['firstOdd']%2 + unbalanced['secondOdd']%2)//2
+    return swaps%2
+ 
+n = int(input())
+pairs = []
+for i in range(n):
+    pairs.append(input().split(' '))
+ 
+print(dominoSwaps(n, pairs))
