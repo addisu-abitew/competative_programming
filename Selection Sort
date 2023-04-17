@@ -1,0 +1,17 @@
+#User function Template for python3
+
+class Solution: 
+    def select(self, arr, i):
+        min_index = i
+        min_val = arr[min_index]
+        for i in range(i, len(arr)):
+            if arr[i] < min_val:
+                min_index = i
+                min_val = arr[min_index]
+        return min_index
+    
+    def selectionSort(self, arr,n):
+        for i in range(n-1):
+            min_index = self.select(arr, i)
+            arr[i], arr[min_index] = arr[min_index], arr[i]
+        return arr
