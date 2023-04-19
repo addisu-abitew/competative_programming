@@ -1,0 +1,9 @@
+def theatreStone(m, n, a):
+    hor = m // a
+    if m%a: hor += 1
+    ver = n // a
+    if n%a: ver += 1
+    return hor * ver
+
+m, n, a = input().split(' ')
+print(theatreStone(int(m), int(n), int(a)))
