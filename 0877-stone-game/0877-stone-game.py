@@ -1,30 +1,24 @@
 class Solution:
-    def __init__(self):
-        self.calculated = {}
-
-    def stoneGame(self, piles: List[int]) -> bool:
-        return self.maxValue(piles, 0, len(piles)-1) >= 0
-    
-    def maxValue(self, piles, l, r):
-        if l==r: return piles[l]
-        if 'min({l}, {r})'.format(l = l+1, r = r) not in self.calculated:
-            self.calculated['min({l}, {r})'.format(l = l+1, r = r)] = self.minValue(piles, l+1, r)
-        if 'min({l}, {r})'.format(l = l, r = r-1) not in self.calculated:
-            self.calculated['min({l}, {r})'.format(l = l, r = r-1)] = self.minValue(piles, l, r-1)
-        leftValue = piles[l] + self.calculated['min({l}, {r})'.format(l = l+1, r = r)]
-        rightValue = piles[r] + self.calculated['min({l}, {r})'.format(l = l, r = r-1)]
-
-        return max(leftValue, rightValue)
-        
-    def minValue(self, piles, l, r):
-        if l==r: return 0
-        if 'max({l}, {r})'.format(l = l+1, r = r) not in self.calculated:
-            self.calculated['max({l}, {r})'.format(l = l+1, r = r)] = self.maxValue(piles, l+1, r)
-        if 'max({l}, {r})'.format(l = l,r = r-1) not in self.calculated:
-            self.calculated['max({l}, {r})'.format(l = l,r = r-1)] = self.maxValue(piles, l, r-1)
-        leftValue = self.calculated['max({l}, {r})'.format(l = l+1, r = r)]
-        rightValue = self.calculated['max({l}, {r})'.format(l = l,r = r-1)]
-        if leftValue > rightValue:
-            return rightValue
+    def stoneGame(self, piles: List[int], dif=0) -> bool:
+        if len(piles)==1:
+            return piles[0]
+        elif len(piles)==2:
+            return max(piles[0], piles[1])-min(piles[0], piles[1])
+        # l = max(piles[0]-max(piles[1], piles[-1]), piles[-1] - max(piles[0], piles[-2]))
+        l = 1 if piles[1] > piles[-1] else -1
+        r = 0 if piles[0] > piles[-2] else -2
+        x = 0 if piles[0]-piles[l] > piles[-1] - piles[r] else -1
+        if x == 0:
+            dif += piles[0]-piles[l]
+            # print(dif, x, l)
+            if l == 1:
+                return self.stoneGame(piles[l+1:],dif)
+            else:
+                return self.stoneGame(piles[1:l], dif)
         else:
-            return leftValue
+            dif += piles[-1]-piles[r]
+            # print(dif, x, r)
+            if r == 0:
+                return self.stoneGame(piles[1:-1], dif)
+            else:
+                return self.stoneGame(piles[:-2], dif)
