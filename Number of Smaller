@@ -1,0 +1,17 @@
+input()
+arr1 = [int(x) for x in input().split()]
+arr2 = [int(x) for x in input().split()]
+
+i, j = 0, 0
+while i<len(arr1) and j<len(arr2):
+    if arr1[i] < arr2[j]:
+        i += 1
+    else:
+        arr2[j] = str(i)
+        j += 1
+
+while j < len(arr2):
+    arr2[j] = str(i)
+    j += 1
+
+print(" ".join(arr2))
