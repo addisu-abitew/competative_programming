@@ -1,0 +1,18 @@
+input()
+arr1 = [x for x in input().split()]
+arr2 = [x for x in input().split()]
+sorted_arr = []
+i, j = 0, 0
+while i<len(arr1) and j<len(arr2):
+    if int(arr1[i]) < int(arr2[j]):
+        sorted_arr.append(arr1[i])
+        i += 1
+    else:
+        sorted_arr.append(arr2[j])
+        j += 1
+if i < len(arr1):
+    sorted_arr += arr1[i:]
+else:
+    sorted_arr += arr2[j:]
+
+print(" ".join(sorted_arr))
