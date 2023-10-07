@@ -1,9 +1,9 @@
 class Solution(object):
     def arrayChange(self, nums, operations):
-        replacements = {}
-        for x, y in reversed(operations):
-            replacements[x] = replacements.get(y, y)
-        for idx, val in enumerate(nums):
-            if val in replacements:
-                nums[idx] = replacements[val]
+        swaps = {}
+        for s, e in reversed(operations):
+            swaps[s] = swaps[e] if e in swaps else e
+        for i, num in enumerate(nums):
+            if num in swaps:
+                nums[i] = swaps[num]
         return nums
