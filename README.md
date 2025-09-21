@@ -6,27 +6,32 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3678-design-task-manager](https://github.com/addisu-abitew/competative_programming/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/addisu-abitew/competative_programming/tree/master/3827-implement-router) |
 ## Design
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3678-design-task-manager](https://github.com/addisu-abitew/competative_programming/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/addisu-abitew/competative_programming/tree/master/3827-implement-router) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3678-design-task-manager](https://github.com/addisu-abitew/competative_programming/tree/master/3678-design-task-manager) |
 ## Ordered Set
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3678-design-task-manager](https://github.com/addisu-abitew/competative_programming/tree/master/3678-design-task-manager) |
 | [3827-implement-router](https://github.com/addisu-abitew/competative_programming/tree/master/3827-implement-router) |
 ## Array
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/addisu-abitew/competative_programming/tree/master/3827-implement-router) |
 ## String
