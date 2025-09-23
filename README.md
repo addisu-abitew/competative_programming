@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0165-compare-version-numbers](https://github.com/addisu-abitew/competative_programming/tree/master/0165-compare-version-numbers) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
 ## Matrix
 |  |
@@ -58,4 +59,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3242-count-elements-with-maximum-frequency](https://github.com/addisu-abitew/competative_programming/tree/master/3242-count-elements-with-maximum-frequency) |
+## Two Pointers
+|  |
+| ------- |
+| [0165-compare-version-numbers](https://github.com/addisu-abitew/competative_programming/tree/master/0165-compare-version-numbers) |
 <!---LeetCode Topics End-->
