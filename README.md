@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/addisu-abitew/competative_programming/tree/master/0033-search-in-rotated-sorted-array) |
+| [0120-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/0120-triangle) |
 | [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/addisu-abitew/competative_programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
@@ -69,4 +70,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0166-fraction-to-recurring-decimal](https://github.com/addisu-abitew/competative_programming/tree/master/0166-fraction-to-recurring-decimal) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0120-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/0120-triangle) |
 <!---LeetCode Topics End-->
