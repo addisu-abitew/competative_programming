@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/0120-triangle) |
 | [0611-valid-triangle-number](https://github.com/addisu-abitew/competative_programming/tree/master/0611-valid-triangle-number) |
 | [0830-largest-triangle-area](https://github.com/addisu-abitew/competative_programming/tree/master/0830-largest-triangle-area) |
+| [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
 | [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/addisu-abitew/competative_programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0166-fraction-to-recurring-decimal](https://github.com/addisu-abitew/competative_programming/tree/master/0166-fraction-to-recurring-decimal) |
 | [0830-largest-triangle-area](https://github.com/addisu-abitew/competative_programming/tree/master/0830-largest-triangle-area) |
+| [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -83,10 +85,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0611-valid-triangle-number](https://github.com/addisu-abitew/competative_programming/tree/master/0611-valid-triangle-number) |
+| [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
 ## Sorting
 |  |
 | ------- |
 | [0611-valid-triangle-number](https://github.com/addisu-abitew/competative_programming/tree/master/0611-valid-triangle-number) |
+| [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
 ## Geometry
 |  |
 | ------- |
