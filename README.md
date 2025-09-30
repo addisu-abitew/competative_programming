@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/addisu-abitew/competative_programming/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
+| [2324-find-triangular-sum-of-an-array](https://github.com/addisu-abitew/competative_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/addisu-abitew/competative_programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/addisu-abitew/competative_programming/tree/master/3827-implement-router) |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0166-fraction-to-recurring-decimal](https://github.com/addisu-abitew/competative_programming/tree/master/0166-fraction-to-recurring-decimal) |
 | [0830-largest-triangle-area](https://github.com/addisu-abitew/competative_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
+| [2324-find-triangular-sum-of-an-array](https://github.com/addisu-abitew/competative_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -100,4 +102,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/addisu-abitew/competative_programming/tree/master/0830-largest-triangle-area) |
+## Simulation
+|  |
+| ------- |
+| [2324-find-triangular-sum-of-an-array](https://github.com/addisu-abitew/competative_programming/tree/master/2324-find-triangular-sum-of-an-array) |
+## Combinatorics
+|  |
+| ------- |
+| [2324-find-triangular-sum-of-an-array](https://github.com/addisu-abitew/competative_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 <!---LeetCode Topics End-->
