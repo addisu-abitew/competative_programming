@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/addisu-abitew/competative_programming/tree/master/0407-trapping-rain-water-ii) |
 | [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [3678-design-task-manager](https://github.com/addisu-abitew/competative_programming/tree/master/3678-design-task-manager) |
 ## Ordered Set
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/addisu-abitew/competative_programming/tree/master/0033-search-in-rotated-sorted-array) |
 | [0120-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/0120-triangle) |
 | [0300-longest-increasing-subsequence](https://github.com/addisu-abitew/competative_programming/tree/master/0300-longest-increasing-subsequence) |
+| [0407-trapping-rain-water-ii](https://github.com/addisu-abitew/competative_programming/tree/master/0407-trapping-rain-water-ii) |
 | [0611-valid-triangle-number](https://github.com/addisu-abitew/competative_programming/tree/master/0611-valid-triangle-number) |
 | [0830-largest-triangle-area](https://github.com/addisu-abitew/competative_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
@@ -54,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/addisu-abitew/competative_programming/tree/master/0407-trapping-rain-water-ii) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
 ## Binary Search
 |  |
@@ -114,4 +117,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/addisu-abitew/competative_programming/tree/master/2324-find-triangular-sum-of-an-array) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/addisu-abitew/competative_programming/tree/master/0407-trapping-rain-water-ii) |
 <!---LeetCode Topics End-->
