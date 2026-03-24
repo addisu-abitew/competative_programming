@@ -1,63 +1,57 @@
-#include <stdlib.h>
-
-int findLeft(int* nums, int left, int right, int target) {
-    int ans = -1;
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
-        if (nums[mid] == target) {
-            ans = mid;
-            right = mid - 1; // go left
-        } else {
-            left = mid + 1;
-        }
-    }
-    return ans;
-}
-
-int findRight(int* nums, int left, int right, int target) {
-    int ans = -1;
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
-        if (nums[mid] == target) {
-            ans = mid;
-            left = mid + 1; // go right
-        } else {
-            right = mid - 1;
-        }
-    }
-    return ans;
-}
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int findLeft(int* nums, int start, int end, int target);
+int findRight(int* nums, int start, int end, int target);
 
 int* searchRange(int* nums, int numsSize, int target, int* returnSize) {
-    int* ans = malloc(2 * sizeof(int));
+    int start = 0, end = numsSize - 1;
+    int *ans = malloc(2 * sizeof(int));
     if (!ans) return NULL;
 
-    int left = 0, right = numsSize - 1;
-    int found = -1;
-
-    // Step 1: find any occurrence
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
+    ans[0] = -1;
+    ans[1] = -1;
+    while (start <= end) {
+        int mid = (start + end) / 2;
         if (nums[mid] == target) {
-            found = mid;
+            ans[0] = findLeft(nums, start, mid, target);
+            ans[1] = findRight(nums, mid, end, target);
             break;
         } else if (nums[mid] < target) {
-            left = mid + 1;
+            start = mid + 1;
         } else {
-            right = mid - 1;
+            end = mid - 1;
         }
     }
 
     *returnSize = 2;
+    return ans;
+}
 
-    // Not found
-    if (found == -1) {
-        ans[0] = ans[1] = -1;
-        return ans;
+int findLeft(int* nums, int start, int end, int target) {
+    int ans = -1;
+    while (start <= end) {
+        int mid = (start + end) / 2;
+        if (nums[mid] == target) {
+            ans = mid;
+            end = mid - 1;
+        } else {
+            start = mid + 1;
+        }
     }
+    return ans;
+}
 
-    // Step 2 & 3: search within reduced ranges
-    ans[0] = findLeft(nums, 0, found, target);
-    ans[1] = findRight(nums, found, numsSize - 1, target);
+int findRight(int* nums, int start, int end, int target) {
+    int ans = -1;
+    while (start <= end) {
+        int mid = (start + end) / 2;
+        if (nums[mid] == target) {
+            ans = mid;
+            start = mid + 1;
+        } else {
+            end = mid - 1;
+        }
+    }
     return ans;
 }
