@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/addisu-abitew/competative_programming/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/addisu-abitew/competative_programming/tree/master/0049-group-anagrams) |
 | [0165-compare-version-numbers](https://github.com/addisu-abitew/competative_programming/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/addisu-abitew/competative_programming/tree/master/0166-fraction-to-recurring-decimal) |
