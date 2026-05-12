@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0830-largest-triangle-area](https://github.com/addisu-abitew/competative_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/addisu-abitew/competative_programming/tree/master/1111-minimum-score-triangulation-of-polygon) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/addisu-abitew/competative_programming/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/addisu-abitew/competative_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/addisu-abitew/competative_programming/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -103,12 +104,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0611-valid-triangle-number](https://github.com/addisu-abitew/competative_programming/tree/master/0611-valid-triangle-number) |
 | [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/addisu-abitew/competative_programming/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 ## Sorting
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/addisu-abitew/competative_programming/tree/master/0049-group-anagrams) |
 | [0611-valid-triangle-number](https://github.com/addisu-abitew/competative_programming/tree/master/0611-valid-triangle-number) |
 | [1018-largest-perimeter-triangle](https://github.com/addisu-abitew/competative_programming/tree/master/1018-largest-perimeter-triangle) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/addisu-abitew/competative_programming/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 ## Geometry
 |  |
 | ------- |
