@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/addisu-abitew/competative_programming/tree/master/0049-group-anagrams) |
 | [0166-fraction-to-recurring-decimal](https://github.com/addisu-abitew/competative_programming/tree/master/0166-fraction-to-recurring-decimal) |
 | [2023-design-movie-rental-system](https://github.com/addisu-abitew/competative_programming/tree/master/2023-design-movie-rental-system) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/addisu-abitew/competative_programming/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/addisu-abitew/competative_programming/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3678-design-task-manager](https://github.com/addisu-abitew/competative_programming/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/addisu-abitew/competative_programming/tree/master/0049-group-anagrams) |
 | [0165-compare-version-numbers](https://github.com/addisu-abitew/competative_programming/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/addisu-abitew/competative_programming/tree/master/0166-fraction-to-recurring-decimal) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/addisu-abitew/competative_programming/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3797-design-spreadsheet](https://github.com/addisu-abitew/competative_programming/tree/master/3797-design-spreadsheet) |
 ## Matrix
 |  |
